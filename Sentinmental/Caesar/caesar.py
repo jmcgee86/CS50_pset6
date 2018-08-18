@@ -17,7 +17,8 @@ else:
     for c in plaintext:
         if c.isalpha()!=True:
             cipher +=c
+        elif c.isupper():
+            cipher+=chr((((ord(c)-65+key)%26)+65))
         else:
-            # cipher += (c-'a'+k
-            cipher+=(chr(ord(c)+key%26))
+            cipher+=chr((((ord(c)-97+key)%26)+97))
     print("Ciphertext: ", cipher)
