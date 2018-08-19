@@ -1,1 +1,0 @@
-Hello lets compare the substrings in these two files

@@ -1,6 +1,0 @@
-this
-
-is a testing file
-for comparing lines
-
-in two text files
