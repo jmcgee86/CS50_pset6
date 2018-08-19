@@ -1,0 +1,4 @@
+This is a testing document. It will be used to compare the matching sentences in two text files. And display the ones that match.
+I wonder if it works correctly?
+
+We will run a test to check if it does.
